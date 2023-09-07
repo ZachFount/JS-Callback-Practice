@@ -64,4 +64,5 @@ function moveWithArrowKeys(left, bottom, callback){
     document.addEventListener('keyup', function(e){
         direction = null
         callback(direction)
-    })
+    }
+    )}
